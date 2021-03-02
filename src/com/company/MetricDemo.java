@@ -14,6 +14,9 @@ public class MetricDemo {
         Scanner keyboard = new Scanner(System.in);
         System.out.print("Enter a distance in miles: ");
         double miles = keyboard.nextDouble();
-        System.out.printf("%12.2f miles is %12.2f kilometers.", miles, Metric.kilometersToMiles(miles));
+        System.out.printf("%.2f miles is %.2f kilometers.\n", miles, Metric.milesToKilometers(miles));
+        System.out.print("Enter a distance in km: ");
+        double km = keyboard.nextDouble();
+        System.out.printf("%.2f km is %.2f miles.\n", km, Metric.kilometersToMiles(km));
     }
 }

@@ -9,14 +9,14 @@ package com.company;
  * Completed by: [student name], [student email], [date of completion]
  */
 public class Metric {
-    public static final double FACTOR_MI_TO_KM = 1.609;
+    public static final double KM_IN_ONE_MI = 1.609;
 
     public static double milesToKilometers(double miles) {
-        return miles * FACTOR_MI_TO_KM;
+        return miles * KM_IN_ONE_MI;
     }
 
     public static double kilometersToMiles(double km) {
-        return km / FACTOR_MI_TO_KM;
+        return km / KM_IN_ONE_MI;
     }
 }
 
