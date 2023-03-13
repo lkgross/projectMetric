@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 /**
  * MetricDemo -
- * A class that contains uses the Metric class
+ * A class that uses the Metric class
  * <p>
  * Starter code Laura K. Gross, laura.gross@bridgew.edu, 3/2021
  * <p>
